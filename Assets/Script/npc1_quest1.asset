@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380e087eefd00d946b1189c293e53463, type: 3}
+  m_Name: npc1_quest1
+  m_EditorClassIdentifier: 
+  initialDialog:
+  - "hai\nkamu orang baru disini, ya? \naku ayu, aku tinggal di desa sini. "
+  - "jarang sekali ada pengunjung di desa ini. \njika kamu belum memiliki tempat
+    tinggal, \nkamu bisa gunakan bangunan kosong disebelah rumah \nkepala desa"
+  - "mungkin ini sedikit tidak sopan, \ntapi aku memerlukan bantuanmu"
+  - aku kesulitan mencari bahan masakan dihutan
+  - "bisakah kamu membantuku? \ntenang saja, aku akan membayarmu. "
+  TerimaOpsi: tentu saja.
+  TerimaJawaban: "terimakasih. \naku memerlukan 2 daging kelinci"
+  OpsiTolak: 'maaf, aku tidak bisa. '
+  OpsiJawaban: "baiklah. \njika kamu berubah pikiran, tolong cari aku."
+  KembaliSetelahDiTolak: jadi, kamu berubah pikiran ?
+  ProsesKembali: "masih belum cukup, \nmungkin kamu bisa cari di bawah pohon sana. "
+  KembaliSelesai: "wahhh terimakasih. \nini lebih dari cukup,\nini bayaran untukmu.
+    \n"
+  Akhirkata: 'sekarang aku akan masak,
+
+    jika sudah selesai aku akan membaginya
+    denganmu.'
+  HadiahKoin: 0
+  HadiahItem1: sup
+  HadiahItem2: 
+  PersyaratanItemPertama: Daging Kelinci
+  JumlahPersyaratanPertama: 2
+  PersyaratanItemKedua: 
+  JumlahPersyaratanKedua: 0
